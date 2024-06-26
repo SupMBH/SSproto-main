@@ -1,12 +1,26 @@
 import CallMock from "./IsMocked";
 import CallApi from "./callApi";
 
-const callOnApi = false
+
+
+
+//SWITCH DONNEES MOCKEES & API
+//CORRECT TRUE or FALSE
+const callOnApi = true
+//----------------------------
 
 const callOnData = callOnApi === true ? CallApi : CallMock;
 export default callOnData;
 
 console.log(callOnData)
+
+// Alert
+const notify = () => {
+    const message = callOnApi ? "Vous utilisez les données de l'API" : "Vous utilisez les données Mockées";
+    alert(message);
+  };
+  
+  notify();
 
 /**
  * @param {string} kind 
