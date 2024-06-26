@@ -1,0 +1,54 @@
+.barContainer{
+    width: 100%;
+    min-width: 835px;
+    height: 320px;
+    background-color: #fbfbfb;
+    border-radius: 5px;
+    padding: 20px 20px;
+}
+
+.barTop{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.barLegend{
+    display: flex;
+}
+
+.burned,
+.weight{
+    position: relative;
+    margin-left: 40px;
+}
+
+.burned::before, 
+.weight::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -20px;
+    transform: translate(0, -50%);
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    align-self: center;
+}
+
+.burned::before{
+    background-color: #E60000;
+}
+
+.weight::before{
+    background-color: #282D30;
+}
+
+@media (max-width: 1400px){
+    .barContainer{
+        width: 100%;
+        min-width: unset;
+    }
+}

@@ -1,0 +1,32 @@
+.scoreContainer{
+    position: relative;
+    width: 100%;
+    min-width: 258px;
+    height: 263px;
+    background: #fbfbfb;
+    border-radius: 5px;
+}
+
+.scoreContainer h2{
+    position: absolute;
+    left: 25px;
+    top: 15px;
+    transform: translate(-50%, -50%);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    color: #20253a;
+}
+
+.scoreText{
+    position: absolute;
+    left: 37%;
+    top: 37%;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: #74798c;
+    background: #FBFBFB;
+    border-radius: 50%;
+}

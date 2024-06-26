@@ -1,0 +1,30 @@
+.horizontalNavBar{
+    display: flex; 
+    align-items: center;
+    padding: 10px 0;
+    background-color: black;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.horizontalNavBar img{
+    margin: 0px 25px;
+    justify-self: flex-start;
+}
+
+.direction{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.linkTo{
+    font-weight: 500;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.linkTo:hover {
+    text-decoration: underline;
+}

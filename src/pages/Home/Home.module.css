@@ -1,0 +1,24 @@
+.welcome{
+    margin: 30px 200px;
+}
+
+.welcome h1{
+    margin-bottom: 20px;
+}
+
+.profileSection{
+    margin-left: 200px;
+}
+
+.profileLink{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.profileSection p{
+    margin-bottom: 20px;
+}
+
+.profileLink:hover{
+    font-weight: 700;
+}

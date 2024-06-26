@@ -1,0 +1,9 @@
+.errorPage{
+    margin: 50px 200px;
+}
+
+.error{
+    color: #FF0101;
+    margin-bottom: 50px;
+    font-size: 50px;
+}

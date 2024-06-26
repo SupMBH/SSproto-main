@@ -1,0 +1,38 @@
+.tagContainer{
+    width: 100%;
+    min-width: 258px;
+    height: 124px;
+    display: flex;
+    align-items: center;
+    background: #fbfbfb;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 38px;
+}
+
+.tagIcon{
+    width: 60px;
+    height: 60px;
+    z-index: 2;
+    margin-right: 24px;
+    border-radius: 5px;
+}
+
+.tagCount{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.tagKind{
+    font-size: 14px;
+    font-weight: 500;
+    color: #74798C;
+}
+
+@media (max-width: 1400px){
+    .tagContainer{
+        width: calc((100%/2) - (20px/2));
+        margin-bottom: 0px;
+    }
+}
+
