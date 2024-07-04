@@ -19,7 +19,7 @@ const Home = () =>{
                 <h2 className={style.quote}>L'application de coaching sportif</h2>
             </div>
             <div className={style.profileSection}>
-            <p>Clickez sur :</p>
+            <p>UTILISATEURS :</p>
                 <Link className={style.profileLink} to='user/12'>Karl</Link><br />
                 <Link className={style.profileLink} to='user/18'>Cecilia</Link>
             </div>
