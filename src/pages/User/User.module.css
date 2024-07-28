@@ -1,34 +1,54 @@
-.dashboard{
+.dashboard {
     display: flex;
     margin: 80px 0px 0px 200px;
     gap: 30px;
+    max-width: 1200px;
 }
 
-.bottomChart{
+.bottomChart {
     display: flex;
     margin-top: 30px;
     gap: 30px;
 }
 
-.notFound{
-    margin: 80px 0px 0px 200px
+.notFound {
+    margin: 80px 0px 0px 200px;
 }
 
-@media (max-width: 1400px){
-    .dashboard{
+.contentContainer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.chartsContainer {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.countContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: 20px;
+}
+
+@media (max-width: 1400px) {
+    .dashboard {
         flex-direction: column-reverse;
         margin: 80px 35px 20px 150px;
         gap: 0px;
     }
 
-    .countContainer{
-        display:flex;
+    .countContainer {
+        display: flex;
         flex-wrap: wrap;
         gap: 20px;
         margin-bottom: 30px;
     }
 
-    .bottomChart{
+    .bottomChart {
         width: 100%;
     }
 }
