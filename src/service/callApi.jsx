@@ -17,7 +17,7 @@ const url = axios.create({
 export default class CallApi {
     static getInfos = async (userId) => { 
         try {
-            const result = await url.get(`http://localhost:3000/user/${userId}`)
+            const result = await url.get(`/user/${userId}`)
             return result.data
         } catch (error) {
             console.log(error)
@@ -27,7 +27,7 @@ export default class CallApi {
   
     static getActivity = async (userId) => {
         try {
-            const result = await url.get(`http://localhost:3000/user/${userId}/activity`)
+            const result = await url.get(`/user/${userId}/activity`)
             return result.data
         } catch (error) {
             console.log(error)
@@ -37,7 +37,7 @@ export default class CallApi {
 
     static getSessions = async (userId) => {
         try {
-            const result = await url.get(`http://localhost:3000/user/${userId}/average-sessions`)
+            const result = await url.get(`/user/${userId}/average-sessions`)
             return result.data
         } catch (error) {
             console.log(error)
@@ -47,7 +47,7 @@ export default class CallApi {
 
     static getPerformance = async (userId) => {
         try {
-            const result = await url.get(`http://localhost:3000/user/${userId}/performance`)
+            const result = await url.get(`/user/${userId}/performance`)
             return result.data
         } catch (error) {
             console.log(error)
